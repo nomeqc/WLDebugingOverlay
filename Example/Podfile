@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WLDebugingOverlay_Example' do
+  pod 'WLDebugingOverlay', :path => '../'
+
+  target 'WLDebugingOverlay_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
