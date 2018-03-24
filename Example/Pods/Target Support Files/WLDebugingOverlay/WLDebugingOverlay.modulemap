@@ -1,0 +1,6 @@
+framework module WLDebugingOverlay {
+  umbrella header "WLDebugingOverlay-umbrella.h"
+
+  export *
+  module * { export * }
+}

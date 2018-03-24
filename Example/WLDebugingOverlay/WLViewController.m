@@ -17,7 +17,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UILabel *label = [[UILabel alloc] init];
+    label.font = [UIFont systemFontOfSize:18];
+    label.text = @"连续点击信号栏3次，弹出调试窗口";
+    label.textColor = [UIColor darkTextColor];
+    [self.view addSubview:label];
+    [label sizeToFit];
+    label.center = CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetMidY(self.view.bounds));
+    
 }
 
 - (void)didReceiveMemoryWarning

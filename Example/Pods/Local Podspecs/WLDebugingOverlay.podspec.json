@@ -1,0 +1,23 @@
+{
+  "name": "WLDebugingOverlay",
+  "version": "0.1.0",
+  "summary": "A short description of WLDebugingOverlay.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Fallrainy/WLDebugingOverlay",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Fallrainy": "xie5405@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Fallrainy/WLDebugingOverlay.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WLDebugingOverlay/Classes/**/*",
+  "public_header_files": "WLDebugingOverlay/Classes/**/*.h"
+}

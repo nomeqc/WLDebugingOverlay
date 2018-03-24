@@ -7,12 +7,19 @@
 //
 
 #import "WLAppDelegate.h"
+#import "WLDebugingOverlay.h"
 
 @implementation WLAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+    [WLDebugingOverlay prepareDebuggingOverlay];
+    [[WLDebugingOverlay overlay] addActionWithTitle:@"测试" handler:^{
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Just Test" message:@"" preferredStyle:UIAlertControllerStyleAlert];
+        [alertController addAction:[UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:NULL]];
+        [self.window.rootViewController presentViewController:alertController animated:YES completion:NULL];
+    }];
     return YES;
 }
 
