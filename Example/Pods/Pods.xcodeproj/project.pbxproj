@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		047931A663B61BB8FB194C0C2192E253 /* WLDebugingOverlay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A76EFDC13AAE31EFDB0EAE39B49B1F09 /* WLDebugingOverlay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		047931A663B61BB8FB194C0C2192E253 /* WLDebugingOverlay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 925FA761841FAB3BD4B3BB44FAA0D6A4 /* WLDebugingOverlay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0AFFBBEA9846EC1E5EFFB38E5A8612D5 /* Pods-WLDebugingOverlay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06CC498FB90D97B83B7C8EB76C55ADDA /* Pods-WLDebugingOverlay_Tests-dummy.m */; };
 		10FFF39ACD8381E7DF1802E1D2F1B3A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		278A7C0460A57830343CDE02E744E0F9 /* WLDebugingOverlay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E1300750F2A07B465D3C395166EDB8 /* WLDebugingOverlay-dummy.m */; };
+		278A7C0460A57830343CDE02E744E0F9 /* WLDebugingOverlay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC98486D8919BBE4A191420280A0CB11 /* WLDebugingOverlay-dummy.m */; };
 		5E4B4D6854A4DAA9517A1961DFF6A2E8 /* Pods-WLDebugingOverlay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 844AC97F69F443F46A3537A8CB1AD642 /* Pods-WLDebugingOverlay_Example-dummy.m */; };
 		64529771DB8A25AC5E6B5FA1E416194F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		786CC9B1634E908DD43A21E4023D23D3 /* WLDebugingOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 887359D030472BF2292655E1BB18290A /* WLDebugingOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FA737BC29F87AC97EBBD7D4D1E52A3B /* WLDebugingOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 0906AC617EDCD5137B5739E8AB04A67A /* WLDebugingOverlay.m */; };
+		786CC9B1634E908DD43A21E4023D23D3 /* WLDebugingOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = A8465E93CF16A5FFA796E1DE23802127 /* WLDebugingOverlay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FA737BC29F87AC97EBBD7D4D1E52A3B /* WLDebugingOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = A74FD64C48550A1BFBB6B0672E201CC1 /* WLDebugingOverlay.m */; };
 		D09A2FCED6B3F11DD2824C11FC613200 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		EE59B6915818CC69D6C1806BBC00FB1E /* Pods-WLDebugingOverlay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C14BB6A42FCF2332FB63BC3D6D7D3B /* Pods-WLDebugingOverlay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBF59E032BDB5EAE627C8AD30EB041A2 /* Pods-WLDebugingOverlay_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 644B84A0F0663DA821C656A5D22565FE /* Pods-WLDebugingOverlay_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,37 +32,37 @@
 
 /* Begin PBXFileReference section */
 		0308AFAA46C376E1F7D45AA70401CA94 /* WLDebugingOverlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WLDebugingOverlay.framework; path = WLDebugingOverlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0693FF9411F4ADBAD8C76A30154062FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		06CC498FB90D97B83B7C8EB76C55ADDA /* Pods-WLDebugingOverlay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLDebugingOverlay_Tests-dummy.m"; sourceTree = "<group>"; };
-		0906AC617EDCD5137B5739E8AB04A67A /* WLDebugingOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLDebugingOverlay.m; path = WLDebugingOverlay/Classes/WLDebugingOverlay.m; sourceTree = "<group>"; };
 		0DE3E865D0ABB7747EBBD657F127014D /* Pods-WLDebugingOverlay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLDebugingOverlay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		10A5DB49E66592697B0C9A7AB3C712E2 /* WLDebugingOverlay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLDebugingOverlay.modulemap; sourceTree = "<group>"; };
 		1894B901523D36982D7A50B52E60F8B4 /* Pods_WLDebugingOverlay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLDebugingOverlay_Tests.framework; path = "Pods-WLDebugingOverlay_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		232A21616D2A15B56F10B959087BD4C2 /* WLDebugingOverlay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLDebugingOverlay-prefix.pch"; sourceTree = "<group>"; };
 		2E1C7614BA258427C59F1EE0092B83DC /* Pods-WLDebugingOverlay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLDebugingOverlay_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		351EC2F2AF10282DC61955B407CBA8B9 /* Pods-WLDebugingOverlay_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLDebugingOverlay_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		358C6AAE487AAE43981178F442836512 /* WLDebugingOverlay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLDebugingOverlay.xcconfig; sourceTree = "<group>"; };
 		3DD0AB4EEB35929746E51383130DC3E8 /* Pods-WLDebugingOverlay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLDebugingOverlay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		401CB976603A77F775146C72B0D3440F /* Pods-WLDebugingOverlay_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLDebugingOverlay_Tests-resources.sh"; sourceTree = "<group>"; };
 		57102A4B5CC22C614A0077F287420B2B /* Pods-WLDebugingOverlay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WLDebugingOverlay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		644B84A0F0663DA821C656A5D22565FE /* Pods-WLDebugingOverlay_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLDebugingOverlay_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6767EA0951A1154607C377DAB7CB3C4F /* Pods-WLDebugingOverlay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLDebugingOverlay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6787C1047089A0D128B804000BDC4F80 /* WLDebugingOverlay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WLDebugingOverlay.modulemap; sourceTree = "<group>"; };
 		6DB4CB97DA92A285964B3122FD77E787 /* Pods-WLDebugingOverlay_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLDebugingOverlay_Example.modulemap"; sourceTree = "<group>"; };
 		844AC97F69F443F46A3537A8CB1AD642 /* Pods-WLDebugingOverlay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WLDebugingOverlay_Example-dummy.m"; sourceTree = "<group>"; };
-		887359D030472BF2292655E1BB18290A /* WLDebugingOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLDebugingOverlay.h; path = WLDebugingOverlay/Classes/WLDebugingOverlay.h; sourceTree = "<group>"; };
+		925FA761841FAB3BD4B3BB44FAA0D6A4 /* WLDebugingOverlay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLDebugingOverlay-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99C14BB6A42FCF2332FB63BC3D6D7D3B /* Pods-WLDebugingOverlay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WLDebugingOverlay_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9FC8B4BD7A230BE2E788DB960F45E3E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5BB4B6E9960D13D7D9747FA7C60A91F /* Pods-WLDebugingOverlay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WLDebugingOverlay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A76EFDC13AAE31EFDB0EAE39B49B1F09 /* WLDebugingOverlay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLDebugingOverlay-umbrella.h"; sourceTree = "<group>"; };
-		A9E1300750F2A07B465D3C395166EDB8 /* WLDebugingOverlay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLDebugingOverlay-dummy.m"; sourceTree = "<group>"; };
-		AE9C7FB4DD84DEE1D6FA83446FCA28B0 /* WLDebugingOverlay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WLDebugingOverlay-prefix.pch"; sourceTree = "<group>"; };
+		A74FD64C48550A1BFBB6B0672E201CC1 /* WLDebugingOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WLDebugingOverlay.m; path = WLDebugingOverlay/Classes/WLDebugingOverlay.m; sourceTree = "<group>"; };
+		A8465E93CF16A5FFA796E1DE23802127 /* WLDebugingOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WLDebugingOverlay.h; path = WLDebugingOverlay/Classes/WLDebugingOverlay.h; sourceTree = "<group>"; };
 		B2A8EB7611629A0B9B508DFEEB1DA54C /* Pods-WLDebugingOverlay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLDebugingOverlay_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B305A0D208A6FAB5C85C299C9E305ABE /* Pods-WLDebugingOverlay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLDebugingOverlay_Example-resources.sh"; sourceTree = "<group>"; };
 		BC0AC1E5331893E848B635E2EBB18F2A /* Pods-WLDebugingOverlay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WLDebugingOverlay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC98486D8919BBE4A191420280A0CB11 /* WLDebugingOverlay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WLDebugingOverlay-dummy.m"; sourceTree = "<group>"; };
 		C22C403329D9E99918069022FE9F94A9 /* Pods-WLDebugingOverlay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WLDebugingOverlay_Tests.modulemap"; sourceTree = "<group>"; };
 		C601977D7D081DF73BE6EF6AAB6503ED /* Pods_WLDebugingOverlay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WLDebugingOverlay_Example.framework; path = "Pods-WLDebugingOverlay_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C628F35588AF12108562B2F870E71441 /* WLDebugingOverlay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WLDebugingOverlay.xcconfig; sourceTree = "<group>"; };
 		DD6571499F030101A0ECED7D8B3CCC81 /* Pods-WLDebugingOverlay_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WLDebugingOverlay_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F3A447A2F07A93240DA429EFFBD9A9EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA013960FF9FE21A668BA753A31257D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,30 +153,36 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				8DE56F926396023A8A46A8FDA4CD90A9 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DB17A742DAB6E2593273F1A397C6F2CA /* Pods */,
 				210EE6EFA62AD08C19985A9227232A90 /* Products */,
 				71CA5BC34E251E9048D5D0CA170B4820 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		80068794B34CCF513BEC383A2A556359 /* WLDebugingOverlay */ = {
+		863C7358BCE01AA968527D0B229A928B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				887359D030472BF2292655E1BB18290A /* WLDebugingOverlay.h */,
-				0906AC617EDCD5137B5739E8AB04A67A /* WLDebugingOverlay.m */,
-				E60B44D53ECCF400E8A454F8D68DEF54 /* Support Files */,
+				F3A447A2F07A93240DA429EFFBD9A9EB /* Info.plist */,
+				6787C1047089A0D128B804000BDC4F80 /* WLDebugingOverlay.modulemap */,
+				358C6AAE487AAE43981178F442836512 /* WLDebugingOverlay.xcconfig */,
+				BC98486D8919BBE4A191420280A0CB11 /* WLDebugingOverlay-dummy.m */,
+				232A21616D2A15B56F10B959087BD4C2 /* WLDebugingOverlay-prefix.pch */,
+				925FA761841FAB3BD4B3BB44FAA0D6A4 /* WLDebugingOverlay-umbrella.h */,
 			);
-			name = WLDebugingOverlay;
-			path = ../..;
+			name = "Support Files";
+			path = "../Target Support Files/WLDebugingOverlay";
 			sourceTree = "<group>";
 		};
-		8DE56F926396023A8A46A8FDA4CD90A9 /* Development Pods */ = {
+		9D935BEA43C9B1892A0EBC314008B4D7 /* WLDebugingOverlay */ = {
 			isa = PBXGroup;
 			children = (
-				80068794B34CCF513BEC383A2A556359 /* WLDebugingOverlay */,
+				A8465E93CF16A5FFA796E1DE23802127 /* WLDebugingOverlay.h */,
+				A74FD64C48550A1BFBB6B0672E201CC1 /* WLDebugingOverlay.m */,
+				863C7358BCE01AA968527D0B229A928B /* Support Files */,
 			);
-			name = "Development Pods";
+			name = WLDebugingOverlay;
+			path = WLDebugingOverlay;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -195,18 +201,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E60B44D53ECCF400E8A454F8D68DEF54 /* Support Files */ = {
+		DB17A742DAB6E2593273F1A397C6F2CA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0693FF9411F4ADBAD8C76A30154062FF /* Info.plist */,
-				10A5DB49E66592697B0C9A7AB3C712E2 /* WLDebugingOverlay.modulemap */,
-				C628F35588AF12108562B2F870E71441 /* WLDebugingOverlay.xcconfig */,
-				A9E1300750F2A07B465D3C395166EDB8 /* WLDebugingOverlay-dummy.m */,
-				AE9C7FB4DD84DEE1D6FA83446FCA28B0 /* WLDebugingOverlay-prefix.pch */,
-				A76EFDC13AAE31EFDB0EAE39B49B1F09 /* WLDebugingOverlay-umbrella.h */,
+				9D935BEA43C9B1892A0EBC314008B4D7 /* WLDebugingOverlay */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WLDebugingOverlay";
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -360,7 +360,7 @@
 /* Begin XCBuildConfiguration section */
 		0E342C03987BE76FF2C2E9B02BE467EC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C628F35588AF12108562B2F870E71441 /* WLDebugingOverlay.xcconfig */;
+			baseConfigurationReference = 358C6AAE487AAE43981178F442836512 /* WLDebugingOverlay.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -452,7 +452,7 @@
 		};
 		50613E9279E142B281635091EAACAC62 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C628F35588AF12108562B2F870E71441 /* WLDebugingOverlay.xcconfig */;
+			baseConfigurationReference = 358C6AAE487AAE43981178F442836512 /* WLDebugingOverlay.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

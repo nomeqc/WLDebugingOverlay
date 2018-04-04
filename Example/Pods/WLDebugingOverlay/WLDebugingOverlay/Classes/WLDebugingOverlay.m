@@ -250,11 +250,14 @@ static CGFloat const kCornerRadius = 23;
 
 + (void)prepareDebuggingOverlay {
     /* 在status bar中添加点击手势 点击三次 唤出调试窗口*/
+#ifdef DEBUG
     UIView *statusBar = [[UIApplication sharedApplication] valueForKey:@"statusBar"];
     WLDebugingOverlay *overlay = [WLDebugingOverlay overlay];
     UITapGestureRecognizer *tapGesture= [[UITapGestureRecognizer alloc] initWithTarget:overlay action:@selector(_handleActivationGesture:)];
     tapGesture.numberOfTapsRequired = 3;
     [statusBar addGestureRecognizer:tapGesture];
+#endif
+    
 }
 
 

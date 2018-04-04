@@ -1,7 +1,10 @@
 use_frameworks!
 
+source 'http://gitlab.fallrainy.top/root/XDBSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
 target 'WLDebugingOverlay_Example' do
-  pod 'WLDebugingOverlay', :path => '../'
+  pod 'WLDebugingOverlay'
 
   target 'WLDebugingOverlay_Tests' do
     inherit! :search_paths
